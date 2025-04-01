@@ -1,0 +1,40 @@
+.banner{
+    height:60vh;
+    position: relative;
+    background-image: url("https://people.com/thmb/57s_itmZlHIwPn8YQgknQ1p9v38=/4000x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(599x0:601x2)/airbnb-8-833d6208c25240fa8febeb597037d903.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.banner-info{
+    background-color: black;
+    color: white;
+    padding: 35px 25px 40px 25px;
+    width: 200px; 
+      
+}
+
+.banner-info>button{
+    background-color: #ff7779;
+    color: #fff;
+    text-transform: inherit;
+
+}
+.banner-info>button:hover{
+    background-color: #fff;
+    color: #ff7779;
+}
+
+.banner-info>h5{
+    margin: 10px 0;
+}
+.banner-search{
+    display: flex;
+    flex-direction: column;
+}
+.banner-search-button{
+    background-color: #fff !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: #ff7779 !important;
+}

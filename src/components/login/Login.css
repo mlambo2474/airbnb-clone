@@ -1,0 +1,85 @@
+/* Login.css */
+.login-container {
+    padding: 0 20px 20px 20px;
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: sans-serif;
+  }
+.close-button{
+  display: flex;
+  justify-content: end;
+  padding-top: 3px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+  .login-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+   
+  }
+   h3{
+      margin-top: 10px;
+     font-size: 20px;
+  }
+
+  .google{
+    background-color: #fff;
+    color: black;
+    border: 1.5px solid #000000;
+    margin-bottom: 10px;
+  }
+  .google:hover {
+    background-color: #0056b3;
+    color: #fff;
+    border: 1.5px solid  #0056b3;
+
+  }
+  .login-form {
+    margin-bottom: 10px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    width: 94%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  
+  .facebook:hover{
+    background-color: #0056b3;
+    color: #fff;
+  
+
+  }
+  .submit{
+    background-color: rgb(216, 61, 61);
+  }
+  .submit:hover{
+    background-color: red;
+  }
+  

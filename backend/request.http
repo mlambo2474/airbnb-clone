@@ -1,0 +1,45 @@
+#GETTING THE USERS
+
+GET http://localhost:5000/users HTTP/1.1
+###
+
+#GETTING A SPECIFIC USER, the 1 is the userId
+GET http://localhost:5000/users/1
+###
+
+#GETTING THE BOOKINGS
+GET http://localhost:5000/bookings
+###
+
+#GETTING A BOOKINGS PER USER, the 2 is the userId
+GET http://localhost:5000/bookings?userId=2 
+###
+
+#GETTING THE LISTINGS
+GET http://localhost:5000/listings
+###
+
+####
+#REGISTER/SIGNUP A USER 
+POST  http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "name": "fortune User",
+    "email": "fortune@gmail.com",
+    "password": "fortunepassword",
+     "phone": "1828371243434"
+}
+####
+
+### and login an existing user, 
+
+POST  http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "name": "fortune User",
+    "email": "fortune@gmail.com",
+    "password": "fortunepassword",
+     "phone": "1828371243434"
+}

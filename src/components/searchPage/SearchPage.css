@@ -1,0 +1,21 @@
+.search-page{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.search-page-info{
+    padding: 20px;
+    border-top: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
+}
+.search-page-info > h1{
+ padding: 10px 0;
+ color: rgb(187, 126, 47);
+}
+.search-page-info > button{
+    margin-right: 10px;
+    background-color: #6af7f7;
+    border-radius: 10px;
+}

@@ -1,0 +1,38 @@
+import {
+  USER_LOGIN_REQUEST,
+  USER_LOGIN_SUCCESS,
+  USER_LOGIN_FAIL,
+  USER_LOGOUT,
+} from "../types/userTypes";
+
+//getting the userInfo item from the localStorage and setting it the initialState
+const userInfofromLocalStorage = localStorage.getItem("userInfo")? JSON.parse(localStorage.getItem("userInfo")) : null;
+const initialState = {
+  userInfo : userInfofromLocalStorage,
+};
+
+export const userLogInReducer = (state = initialState, action) => {
+    console.log("dispatched action", action)
+  switch (action.type) {
+    case USER_LOGIN_REQUEST:
+      return {
+        loading: true,
+      };
+    case USER_LOGIN_SUCCESS:
+      return {
+        loading: false,
+        userInfo: action.payload,
+      };
+    case USER_LOGIN_FAIL:
+      return {
+        loading: false,
+        error: action.payload,
+      };
+    case USER_LOGOUT:
+      return {
+        userInfo: null
+      };
+    default:
+      return state;
+  }
+};

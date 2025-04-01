@@ -1,0 +1,11 @@
+.home{
+    overflow-x: hidden;
+}
+.home-section{
+    display:flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: center;
+   
+
+}

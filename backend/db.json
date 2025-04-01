@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Tonderai Mlambo",
+      "email": "generaltonde@gmail.com",
+      "password": "password1",
+      "phone": "0613101642",
+      "role": "admin"
+    },
+    {
+      "email": "test@gmail.com",
+      "password": "$2a$10$ppdDltf.7L5VIrqgYxZztONDGHff9xHYRQDy7pGRL8e1cpL0KqDsy",
+      "id": 2
+    },
+    {
+      "email": "register@gmail.com",
+      "password": "$2a$10$/xisHKNpM6WpvTQMQUEcR.A8.qqqLIhHXN5aSKlFV4ff8UlD.Ug4C",
+      "name": "Registered User",
+      "phone": "1828371243434",
+      "id": 3
+    },
+    {
+      "email": "fortune@gmail.com",
+      "password": "$2a$10$NQDWR2/V7/oZst2n28EVnueLEu8lmwGJKKoWcKXnw7cjT.rdQxG82",
+      "name": "fortune User",
+      "phone": "1828371243434",
+      "id": 4
+    },
+    {
+      "email": "fortune@gmail.com",
+      "password": "$2a$10$N5KAvzVnffW7helaAuw6QerZfALl8K71FwlMKh6y1LN56ybWtO2VG",
+      "name": "fortune User",
+      "phone": "1828371243434",
+      "id": 5
+    },
+    {
+      "email": "b@gmail.com",
+      "password": "$2a$10$90cGjY8G8bdZSmrLwjNgs.H3W/CCeL89x/77.Y5tLEY/ek3i0BbBK",
+      "id": 6
+    }
+  ],
+  "bookings": [
+    {
+      "listingId": 1,
+      "startDate": "2025-04-06",
+      "endDate": "2025-04-10",
+      "userId": 1
+    },
+    {
+      "listingId": 2,
+      "startDate": "2025-05-06",
+      "endDate": "2025-05-10",
+      "userId": 2
+    }
+  ],
+  "listings": [
+    {
+      "id": 1,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKejiygXyCKMJCfq6BgBmr2805ecwZK3Hsew&s",
+      "title": "3 Bedroom House in Muizenberg",
+      "description": "2 guests 1 bedroom 1 bed 1.5 baths",
+      "price": "$89/night",
+      "bath_num": 4,
+      "bed_num": 4,
+      "zip": 20445,
+      "address": "Seapoint Road",
+      "city": "Cape Town",
+      "street": "Denver Street",
+      "sq-fit": 5.1,
+      "email": "generaltonde@gmail.com",
+      "userId": 3
+    },
+    {
+      "id": 2,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRh-fMOVcvqANYrr2aYReDnMV8WqfOP23pLiLwqihsMPuI7O_pPCPn9nxVtsQtI9FBa9uA&usqp=CAU",
+      "title": "Entire home in Johannesburg",
+      "description": "6 guests 3 bedrooms 4 beds 2 baths",
+      "bath_num": 4,
+      "bed_num": 3,
+      "zip": 202245,
+      "address": "Protea Road",
+      "city": "hermanus",
+      "street": "Protea Street",
+      "sq-fit": 5.5,
+      "email": "test@gmail.com",
+      "userId": 2,
+      "price": "$78/night"
+    },
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVZcW3U6AmiBGHQBaQJpNBYqVvGFB7njShQ&s",
+      "id": 3,
+      "title": "coolest air bnb in the United states of America",
+      "description": " cool architectural gems in the Midwest ",
+      "price": "$80/night"
+    },
+
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKejiygXyCKMJCfq6BgBmr2805ecwZK3Hsew&s",
+      "title": "coolest air bnb in South Africa",
+      "description": "Turns out, the coolest Airbnbs remain as wondrous",
+      "price": "$80/night"
+    },
+
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVZcW3U6AmiBGHQBaQJpNBYqVvGFB7njShQ&s",
+      "title": "coolest air bnb in the United states of America",
+      "description": "cool architectural gems in the Midwest ",
+      "price": "$80/night"
+    },
+
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPfNz5BQh7KzBDiSqLkziTY4xl8r6AbKX3-g&s",
+      "title": "coolest air bnb in the Zimbabwe",
+      "description": "your perfect hideaway",
+      "price": "$80/night"
+    },
+
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSzlWxvsIUdW9gOfjVF6kK0H7afpiNaNp7_Q&",
+      "title": "coolest air bnb in the United Kingdom",
+      "description": "Turns out, the coolest Airbnbs remain as wondrous",
+      "price": "$86/night"
+    },
+
+    {
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAfJpLRLUzTPb024q639drXZ4KyTy9jzr6XrIuEJ668uMXLSZwg1YcfjfXQLhosgB-AAk&usqp=CAU",
+      "title": "coolest air bnb in the Zimbabwe",
+      "description": "Turns out, the coolest Airbnbs remain as wondrous",
+      "price": "$68/night"
+    },
+
+    {
+      "img": "https://helium.privateproperty.co.za/live-za-images/property/1281/16/10933281/images/property-10933281-66518505_e.jpg",
+      "title": "coolest air bnb in South Africa",
+      "description": "Turns out, the coolest Airbnbs remain as wondrous",
+      "price": "$100/night"
+    },
+
+    {
+      "img":"https://images.prop24.com/287914787/Crop600x400",
+      "title": "just furnishedand waiting for you",
+      "description": "cool architectural gems in the Midwest or stare at stars",
+      "price": "$70/night"
+    },
+
+    {
+      "img": "https://images.prop24.com/339706521/Crop600x400",
+      "title": "coolest air bnb in the Zimbabwe",
+      "description": "your perfect hideaway",
+      "price": "$80/night"
+    },
+
+    {
+      "img": "https://images.prop24.com/268000292/Crop600x400",
+      "title": "coolest air bnb in the United Kingdom",
+      "description": "Turns out, the coolest Airbnbs remain as wondrous",
+      "price": "$86/night"
+    }
+  ]
+}

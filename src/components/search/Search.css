@@ -1,0 +1,62 @@
+.search {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 35px;
+    left: 25%;
+    overflow-x: hidden;
+    background-color: white; /* Ensure background is visible */
+    padding: 10px; /* Add some spacing */
+    color: black !important; 
+}
+.rdrDefinedRange button{
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    /* color: white; */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+button .rdrStaticRangeLabel{
+    color: black;
+}
+
+.search > h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 559px;
+    padding: 10px;
+    background-color: #fff;
+    margin-top: 20px; /* Instead of absolute positioning */
+}
+
+.search > input {
+    width: 559px;
+    padding: 15px;
+    border: none;
+    margin-top: 10px; /* Instead of absolute positioning */
+}
+
+.search > input:focus {
+    outline: none;
+}
+
+.search > button {
+    text-transform: inherit !important;
+    background-color: #ff7779;
+    color: #fff;
+    width: 579px;
+    padding: 10px; /* Ensure button has padding */
+    border: none;
+    margin-top: 10px; /* Instead of absolute positioning */
+    cursor: pointer;
+}
+
+.search > button:hover {
+    background-color: white;
+    color: #ff7779;
+    border: 1px solid #ff7779;
+}
