@@ -4,9 +4,9 @@ import {
   USER_REGISTER_FAIL,
 } from "../types/registerTypes";
 
-const registeredUserInfofromLocalStorage = localStorage.getItem("userInfo")? JSON.parse(localStorage.getItem("userInfo")) : null;
+// const registeredUserInfofromLocalStorage = localStorage.getItem("userInfo")? JSON.parse(localStorage.getItem("userInfo")) : null;
 const initialState = {
-  userInfo :  registeredUserInfofromLocalStorage,
+  userInfo : null, // registeredUserInfofromLocalStorage,
 };
 export const registerUserReducer = (state = initialState, action) => {
   switch (action.type) {
