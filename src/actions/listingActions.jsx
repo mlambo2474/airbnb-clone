@@ -4,7 +4,7 @@ import {LISTING_LIST_REQUEST,LISTING_LIST_SUCCESS,LISTING_LIST_FAIL} from "../ty
 export const listListing = () => async (dispatch) => {
     try{
         dispatch({type: LISTING_LIST_REQUEST})
-        const {data} = await axios.get("http://localhost:5000/listings");
+        const {data} = await axios.get("https://airbnb-backend-vlwt.onrender.com/listings");
         console.log("Fetched Data from API:", data); // Debugging 
 
         dispatch({type:LISTING_LIST_SUCCESS, payload : data })
