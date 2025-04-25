@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server": "json-server --watch db.json --port 5000 -m ./node_modules/json-server-auth"
+     "server": "node server.js"
   },
   "keywords": [],
   "author": "",
