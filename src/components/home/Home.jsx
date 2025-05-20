@@ -7,16 +7,14 @@ import "./Home.css";
 
 const Home = () => {
   const dispatch = useDispatch();
-
   const listingList = useSelector((state) => state.listingList);
-  console.log("Listing State:", listingList);
-
   const { loading, listings, error } = listingList;
 
   useEffect(() => {
     dispatch(listListing());
   }, [dispatch]);
-
+  console.log("Listing State:", listingList);
+  console.log("Listings:", listings);
   return (
     <div className="home">
       <Banner />

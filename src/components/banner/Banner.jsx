@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <div className="banner">
 
-      <div className="banner-search">
+      {/* <div className="banner-search">
         {showSearch && <Search />}
         <Button
           onClick={() => setShowSearch(!showSearch)}
@@ -17,7 +17,7 @@ const Banner = () => {
         >
             {showSearch? "hide": "Search Dates"}
         </Button>
-      </div>
+      </div> */}
       
       <div className="banner-info">
         <h1>Get out and stretch your imagination</h1>

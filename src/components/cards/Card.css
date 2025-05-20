@@ -26,8 +26,8 @@
     border: 1;
 }
 .card-info > h2{
-    font-size:18px ;
-    font-weight: 600;
+    font-size:15px ;
+    font-weight: bold;
     padding: 5px 0;
     width: 210px;
     height: 52px;
@@ -36,8 +36,9 @@
  
 }
 .card-info > h4{
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 300;
+    color:rgb(68, 68, 68);
     /* margin: 8px 0; */
     width: 200px;
     height: 30px;
@@ -46,4 +47,5 @@
 }
 .card-info > h3{
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }

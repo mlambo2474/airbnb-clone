@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import {  useHistory } from "react-router-dom"
@@ -8,6 +8,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { Avatar } from "@mui/material";
 import { openModal } from "../../actions/modalAction";
 import { logout } from "../../actions/userActions";
+import SearchBar from "../searchInput/SearchBar";
 // import Login from "../login/Login"
 import "./Header.css";
 
@@ -16,7 +17,14 @@ const Header = () => {
   const userLogin = useSelector((state) => state.userLogin);
   const { userInfo } = userLogin;
   const history = useHistory()
+// const navigate = useNavigate()
+    // const [searchResults, setSearchResults] = useState([]);
 
+
+  // const handleSearch = (results) => {
+  //   setSearchResults(results);
+  //   dispatch({ type: "SET_SEARCH_RESULTS", payload: results });
+  // };
   const openLoginModal = () => {
     console.log("the modal is clicked");
     dispatch(openModal("LOGIN_MODAL"));
@@ -24,10 +32,10 @@ const Header = () => {
   const handleLogOut = ()=>{
     dispatch(logout())
     localStorage.removeItem("userInfo")
-
+  // navigate('/');
     history.push("/")
   }
- 
+   console.log('Header rendering');
   return (
     <div className="header">
       <Link to="/">
@@ -38,8 +46,10 @@ const Header = () => {
         />
       </Link>
       <div className="header-center">
-        <input type="text" />
-        <SearchIcon />
+      <SearchBar />
+
+        {/* <input type="text" />
+        <SearchIcon /> */}
       </div>
       <div className="header-right">
         <p>Become a host</p>

@@ -5,6 +5,7 @@ import Home from "./components/home/Home";
 import Footer from "./components/footer/Footer";
 import Modal from "./components/modal/Modal";
 import SearchPage from "./components/searchPage/SearchPage";
+import "./App.css"
 
 import "./App.css";
 
