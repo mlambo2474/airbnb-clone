@@ -78,7 +78,7 @@ const sectionRefs = {
   };
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto">
+    <div className="relative w-full lg:max-w-3xl mx-auto">
 
       <div className="bg-white rounded-full shadow-md border border-gray-400 flex items-center justify-center px-8 w-180 max-w-3xl mx-auto h-16">
      

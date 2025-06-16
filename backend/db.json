@@ -43,6 +43,11 @@
       "email": "z@gmail.com",
       "password": "$2a$10$ppMwaVGC8m2i1Qp1D0Ufv.M2Jz80mJ9ZD.4QJ3jJJPkzP02L6A/4.",
       "id": 7
+    },
+    {
+      "email": "moyalice@gmail.com",
+      "password": "$2a$10$ukQM0590uiPPGslrNysUpeDhXpMa94CVxJsafAxgLmRvAWscPyUDO",
+      "id": 8
     }
   ],
   "bookings": [
@@ -93,223 +98,212 @@
       "price": "$78/night"
     },
     {
-  "id": 13,
-  "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-  "title": "Modern Loft in New York City",
-  "description": "2 guests · 1 bedroom · 1 bed · 1 bath",
-  "bath_num": 1,
-  "bed_num": 1,
-  "zip": 10001,
-  "address": "5th Avenue",
-  "city": "New York",
-  "street": "5th Avenue",
-  "sq_fit": 3.0,
-  "email": "host1@example.com",
-  "userId": 3,
-  "price": "$150/night"
-},
-
+      "id": 13,
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "title": "Modern Loft in New York City",
+      "description": "2 guests · 1 bedroom · 1 bed · 1 bath",
+      "bath_num": 1,
+      "bed_num": 1,
+      "zip": 10001,
+      "address": "5th Avenue",
+      "city": "New York",
+      "street": "5th Avenue",
+      "sq_fit": 3,
+      "email": "host1@example.com",
+      "userId": 3,
+      "price": "$150/night"
+    },
     {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVZcW3U6AmiBGHQBaQJpNBYqVvGFB7njShQ&s",
       "id": 3,
       "title": "coolest air bnb in the United states of America",
-      "description": " cool architectural gems in the Midwest ",
+      "description": " 4 guests 2 bedroom 2 bed 1.5 baths ",
       "price": "$80/night",
-        "city": "Johannesburg"
+      "city": "Johannesburg"
     },
     {
-  "id": 14,
-  "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
-  "title": "Cozy Cottage in Edinburgh",
-  "description": "4 guests · 2 bedrooms · 2 beds · 1 bath",
-  "bath_num": 1,
-  "bed_num": 2,
-  "zip": "EH1 1YZ",
-  "address": "Royal Mile",
-  "city": "Edinburgh",
-  "street": "Royal Mile",
-  "sq_fit": 4.0,
-  "email": "host2@example.com",
-  "userId": 4,
-  "price": "$120/night"
-},
-
-
+      "id": 14,
+      "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "title": "Cozy Cottage in Edinburgh",
+      "description": "4 guests · 2 bedrooms · 2 beds · 1 bath",
+      "bath_num": 1,
+      "bed_num": 2,
+      "zip": "EH1 1YZ",
+      "address": "Royal Mile",
+      "city": "Edinburgh",
+      "street": "Royal Mile",
+      "sq_fit": 4,
+      "email": "host2@example.com",
+      "userId": 4,
+      "price": "$120/night"
+    },
     {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKejiygXyCKMJCfq6BgBmr2805ecwZK3Hsew&s",
       "title": "coolest air bnb in South Africa",
-      "description": "Turns out, the coolest Airbnbs remain as wondrous",
+      "description": "6 guests 4 bedroom 6 bed 4.5 baths",
       "price": "$80/night",
       "city": "Pretoria",
-         "id": 4
+      "id": 4
     },
     {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVZcW3U6AmiBGHQBaQJpNBYqVvGFB7njShQ&s",
       "title": "coolest air bnb in the United states of America",
-      "description": "cool architectural gems in the Midwest ",
+      "description": "2 guests 1 bedroom 1 bed 1.5 baths ",
       "price": "$80/night",
       "city": "Durban",
-         "id": 5
+      "id": 5
     },
-
     {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPfNz5BQh7KzBDiSqLkziTY4xl8r6AbKX3-g&s",
       "title": "coolest air bnb in the Zimbabwe",
-      "description": "your perfect hideaway",
+      "description": "2 guests 1 bedroom 1 bed 1.5 baths",
       "price": "$80/night",
       "city": "Limpopo",
-          "id": "6"
+      "id": "6"
     },
     {
-  "id": 19,
-  "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-  "title": "Lake House in Toronto",
-  "description": "7 guests · 4 bedrooms · 5 beds · 3 baths",
-  "bath_num": 3,
-  "bed_num": 4,
-  "zip": "M5V 2T6",
-  "address": "Lake Shore Blvd",
-  "city": "Toronto",
-  "street": "Lake Shore Blvd",
-  "sq_fit": 6.0,
-  "email": "host7@example.com",
-  "userId": 9,
-  "price": "$220/night"
-},
-
-    
+      "id": 19,
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "title": "Lake House in Toronto",
+      "description": "7 guests · 4 bedrooms · 5 beds · 3 baths",
+      "bath_num": 3,
+      "bed_num": 4,
+      "zip": "M5V 2T6",
+      "address": "Lake Shore Blvd",
+      "city": "Toronto",
+      "street": "Lake Shore Blvd",
+      "sq_fit": 6,
+      "email": "host7@example.com",
+      "userId": 9,
+      "price": "$220/night"
+    },
     {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSzlWxvsIUdW9gOfjVF6kK0H7afpiNaNp7_Q&",
       "title": "coolest air bnb in the United Kingdom",
-      "description": "Turns out, the coolest Airbnbs remain as wondrous",
+      "description": "5 guests 4 bedroom 6 bed 5 baths",
       "price": "$86/night",
       "city": "Kwazulu Natal",
-          "id": 7
+      "id": 7
     },
     {
-  "id": 20,
-  "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
-  "title": "Desert Retreat in Marrakech",
-  "description": "2 guests · 1 bedroom · 1 bed · 1 bath",
-  "bath_num": 1,
-  "bed_num": 1,
-  "zip": "40000",
-  "address": "Medina",
-  "city": "Marrakech",
-  "street": "Rue Bab Doukkala",
-  "sq_fit": 2.8,
-  "email": "host8@example.com",
-  "userId": 10,
-  "price": "$110/night"
-},
-
+      "id": 20,
+      "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "title": "Desert Retreat in Marrakech",
+      "description": "2 guests · 1 bedroom · 1 bed · 1 bath",
+      "bath_num": 1,
+      "bed_num": 1,
+      "zip": "40000",
+      "address": "Medina",
+      "city": "Marrakech",
+      "street": "Rue Bab Doukkala",
+      "sq_fit": 2.8,
+      "email": "host8@example.com",
+      "userId": 10,
+      "price": "$110/night"
+    },
     {
-  "id": 16,
-  "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
-  "title": "Chic Apartment in Paris",
-  "description": "2 guests · 1 bedroom · 1 bed · 1 bath",
-  "bath_num": 1,
-  "bed_num": 1,
-  "zip": "75001",
-  "address": "Rue de Rivoli",
-  "city": "Paris",
-  "street": "Rue de Rivoli",
-  "sq_fit": 2.5,
-  "email": "host4@example.com",
-  "userId": 6,
-  "price": "$180/night"
-},
-
+      "id": 16,
+      "img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+      "title": "Chic Apartment in Paris",
+      "description": "2 guests · 1 bedroom · 1 bed · 1 bath",
+      "bath_num": 1,
+      "bed_num": 1,
+      "zip": "75001",
+      "address": "Rue de Rivoli",
+      "city": "Paris",
+      "street": "Rue de Rivoli",
+      "sq_fit": 2.5,
+      "email": "host4@example.com",
+      "userId": 6,
+      "price": "$180/night"
+    },
     {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAfJpLRLUzTPb024q639drXZ4KyTy9jzr6XrIuEJ668uMXLSZwg1YcfjfXQLhosgB-AAk&usqp=CAU",
       "title": "coolest air bnb in the Zimbabwe",
-      "description": "Turns out, the coolest Airbnbs remain as wondrous",
+      "description": "2 guests 1 bedroom 1 bed 1.5 baths",
       "price": "$68/night",
       "city": "Soweto",
-          "id": 8
+      "id": 8
     },
     {
       "img": "https://helium.privateproperty.co.za/live-za-images/property/1281/16/10933281/images/property-10933281-66518505_e.jpg",
       "title": "coolest air bnb in South Africa",
-      "description": "Turns out, the coolest Airbnbs remain as wondrous",
+      "description": "6 guests 3 bedroom 3 bed 3.5 baths",
       "price": "$100/night",
       "city": "Cape Town",
-          "id": 9 
+      "id": 9
     },
     {
-  "id": 17,
-  "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
-  "title": "Mountain Cabin in Denver",
-  "description": "5 guests · 2 bedrooms · 3 beds · 2 baths",
-  "bath_num": 2,
-  "bed_num": 2,
-  "zip": 80202,
-  "address": "Rocky Mountain Rd",
-  "city": "Denver",
-  "street": "Rocky Mountain Rd",
-  "sq_fit": 4.5,
-  "email": "host5@example.com",
-  "userId": 7,
-  "price": "$160/night"
-},
-
+      "id": 17,
+      "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+      "title": "Mountain Cabin in Denver",
+      "description": "5 guests · 2 bedrooms · 3 beds · 2 baths",
+      "bath_num": 2,
+      "bed_num": 2,
+      "zip": 80202,
+      "address": "Rocky Mountain Rd",
+      "city": "Denver",
+      "street": "Rocky Mountain Rd",
+      "sq_fit": 4.5,
+      "email": "host5@example.com",
+      "userId": 7,
+      "price": "$160/night"
+    },
     {
       "img": "https://images.prop24.com/287914787/Crop600x400",
       "title": "just furnishedand waiting for you",
-      "description": "cool architectural gems in the Midwest or stare at stars",
+      "description": "2 guests 1 bedroom 1 bed 1.5 baths",
       "price": "$70/night",
-      "city":"Cape Town",
-      "id": 10  
+      "city": "Cape Town",
+      "id": 10
     },
     {
       "img": "https://images.prop24.com/339706521/Crop600x400",
       "title": "coolest air bnb in the Zimbabwe",
-      "description": "your perfect hideaway",
+      "description": "5 guests 3 bedroom 3 bed 1.5 baths",
       "price": "$80/night",
-      "city":"Pretoria",
-      "id": 11  
+      "city": "Pretoria",
+      "id": 11
     },
     {
       "img": "https://images.prop24.com/268000292/Crop600x400",
       "title": "coolest air bnb in the United Kingdom",
-      "description": "Turns out, the coolest Airbnbs remain as wondrous",
+      "description": "2 guests 1 bedroom 1 bed 1.5 baths",
       "price": "$86/night",
       "city": "Johannesburg",
-      "id": 12  
+      "id": 12
     },
     {
-  "id": 21,
-  "img": "https://imagescdn.homes.com/i2/M1sKGwdesaWGlDB4c-zOYUBZO8eSoGcx4RiG9nQjq8o/117/401-e-34th-st-new-york-ny-primaryphoto.jpg?p=1 ",
-  "title": "Rustic Cabin in the Swiss Alps",
-  "description": "4 guests · 2 bedrooms · 3 beds · 1 bath",
-  "bath_num": 1,
-  "bed_num": 2,
-  "zip": 3780,
-  "address": "Alpine Way",
-  "city": "Grindelwald",
-  "street": "Alpine Way",
-  "sq_fit": 4.2,
-  "email": "host9@example.com",
-  "userId": 11,
-  "price": "$180/night"
-},
-{
-  "id": 22,
-  "img": "https://images.nestseekers.com/_next/image?url=https://photos.nestseekers.com/Apt/_O7A0046_9APfpMy.jpg&w=3840&q=70",
-  "title": "Modern Apartment in Tokyo",
-  "description": "2 guests · 1 bedroom · 1 bed · 1 bath",
-  "bath_num": 1,
-  "bed_num": 1,
-  "zip": "100-0001",
-  "address": "Shinjuku Street",
-  "city": "Tokyo",
-  "street": "Shinjuku Street",
-  "sq_fit": 2.8,
-  "email": "host10@example.com",
-  "userId": 12,
-  "price": "$150/night"
-}
-
-
+      "id": 21,
+      "img": "https://imagescdn.homes.com/i2/M1sKGwdesaWGlDB4c-zOYUBZO8eSoGcx4RiG9nQjq8o/117/401-e-34th-st-new-york-ny-primaryphoto.jpg?p=1 ",
+      "title": "Rustic Cabin in the Swiss Alps",
+      "description": "4 guests · 2 bedrooms · 3 beds · 1 bath",
+      "bath_num": 1,
+      "bed_num": 2,
+      "zip": 3780,
+      "address": "Alpine Way",
+      "city": "Grindelwald",
+      "street": "Alpine Way",
+      "sq_fit": 4.2,
+      "email": "host9@example.com",
+      "userId": 11,
+      "price": "$180/night"
+    },
+    {
+      "id": 22,
+      "img": "https://images.nestseekers.com/_next/image?url=https://photos.nestseekers.com/Apt/_O7A0046_9APfpMy.jpg&w=3840&q=70",
+      "title": "Modern Apartment in Tokyo",
+      "description": "2 guests · 1 bedroom · 1 bed · 1 bath",
+      "bath_num": 1,
+      "bed_num": 1,
+      "zip": "100-0001",
+      "address": "Shinjuku Street",
+      "city": "Tokyo",
+      "street": "Shinjuku Street",
+      "sq_fit": 2.8,
+      "email": "host10@example.com",
+      "userId": 12,
+      "price": "$150/night"
+    }
   ]
 }

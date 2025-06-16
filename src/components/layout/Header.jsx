@@ -45,14 +45,19 @@ const Header = () => {
           alt="airbnb logo"
         />
       </Link>
+     
       <div className="header-center">
       <SearchBar />
-
-        {/* <input type="text" />
-        <SearchIcon /> */}
+      </div>
+    
+       <div className="search-div">
+          <input type="text" className="search-icon" placeholder="Search Places" />
+        <SearchIcon className="icon"/>
       </div>
       <div className="header-right">
         <p>Become a host</p>
+       
+
         <LanguageIcon />
 
         <div className="dropdown">
@@ -60,7 +65,7 @@ const Header = () => {
           <div className="dropdown-content">
             {userInfo ? (
               <>
-                <span>account</span>
+                <span>You're logged in</span>
                 <span onClick={handleLogOut}>Log out</span>
               </>
             ) : (

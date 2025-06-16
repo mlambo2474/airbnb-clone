@@ -1,10 +1,32 @@
 .banner{
     height:70vh;
     position: relative;
-    background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTI2NDQxMTk%3D/original/c4477d43-d88e-490d-ae70-665821f25ca4.jpeg?im_w=1200");
+    /* background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTI2NDQxMTk%3D/original/c4477d43-d88e-490d-ae70-665821f25ca4.jpeg?im_w=1200"); */
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+     animation: slideshow 30s infinite;
+}
+
+@keyframes slideshow {
+  0% {
+    background-image: url("https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6NTI2NDQxMTk%3D/original/c4477d43-d88e-490d-ae70-665821f25ca4.jpeg?im_w=1200");
+  }
+  20% {
+    background-image: url("https://www.perfecthideaways.co.za/wp-content/uploads/2018/06/00_hero_listing_south-africa_western-cape_overberg_hermanus_stone-house_ph.webp");
+  }
+  40% {
+    background-image: url("https://cdn.vox-cdn.com/thumbor/ZnP9cnjIn60slvybF_34lby1uMk=/0x0:2000x1125/1200x675/filters:focal(840x403:1160x723)/cdn.vox-cdn.com/uploads/chorus_image/image/58203557/171109_06_49_10_5DSR4201.0.jpg");
+  }
+  60% {
+    background-image: url("https://www.travelandleisure.com/thmb/_XsBCRprdQriog2hTCkuiT3f7lc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-airbnb-listing-NEWAIRBNB1123-a67a0e07c4e846e2ae4e653d201e47af.jpg");
+  }
+    80% {
+    background-image: url("https://www.perfecthideaways.co.za/wp-content/uploads/2018/06/13_listing_south-africa_western-cape_overberg_hermanus_stone-house_ph.webp");
+  }
+    100% {
+    background-image: url("https://jayvas.com/wp-content/uploads/2020/11/airbnb-real-estate-company.jpg");
+  }
 }
 .banner-info{
     background-color: black;

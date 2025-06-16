@@ -14,7 +14,7 @@ const DatePicker = ({ dateRange, onChange, onClose }) => {
   ]);
 
   return (
-    <div className=" bg-white rounded-lg">
+    <div className="  rounded-lg text-center ">
       <DateRange
         editableDateInputs
         onChange={(item) => {
@@ -27,12 +27,12 @@ const DatePicker = ({ dateRange, onChange, onClose }) => {
         moveRangeOnFirstSelection={false}
         ranges={ranges}
         minDate={new Date()}
-        className=" rounded-lg"
+        className=" rounded-lg "
         preventScroll={true} // Prevent scroll interference
       />
       <button
         onClick={onClose}
-        className=" bg-pink-500 text-white rounded-lg w-full"
+        className=" text-white rounded-lg bg-yellow-500 hover:bg-yellow-600 scale-85"
       >
         Done
       </button>

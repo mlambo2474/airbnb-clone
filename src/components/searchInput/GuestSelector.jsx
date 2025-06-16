@@ -11,12 +11,12 @@ const GuestsSelector = ({ value, onChange }) => {
   };
 
   return (
-    <div className="p-4 bg-white rounded-lg w-70 shadow-lg">
+    <div className=" bg-white rounded-lg w-70 shadow-lg">
       {/* Adults */}
-      <div className="flex items-center justify-between mb-4 w-68">
-        <div>
-          <span className="text-sm font-semibold ">Adults</span>
-          <p className="text-xs text-gray-500">Ages 13 or above</p>
+      <div className="flex items-center justify-around mb-4 w-68 bg-white rounded-lg">
+        <div className="">
+          <span className=" text-sm font-semibold ">Adults</span>
+          <p className="  text-xs text-gray-500">Ages 13 or above</p>
         </div>
         <div className="flex items-center gap-2">
           <button
@@ -37,10 +37,10 @@ const GuestsSelector = ({ value, onChange }) => {
       </div>
 
       {/* Children */}
-      <div className="flex items-center justify-between w-68">
+      <div className="flex items-center justify-around mb-4 w-68 bg-white rounded-lg">
         <div>
           <span className="text-sm font-semibold">Children</span>
-          <p className="text-xs text-gray-500">Ages 2–12</p>
+          <p className="text-xs text-gray-500">Ages from 2 – 12</p>
         </div>
         <div className="flex items-center gap-2">
           <button

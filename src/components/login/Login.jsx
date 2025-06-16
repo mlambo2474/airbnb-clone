@@ -46,11 +46,11 @@ const Login = () => {
      dispatch(closeModal());
   }
   return (
-    <div className="login-container">
+    <div className="login-container ">
       <div className="close-button" onClick={() => dispatch(closeModal())}>
         <p>×</p>
       </div>
-      <div className="login-header">
+      <div className="login-header ">
         <h3>Login or Sign Up</h3>
         {(error ||registerError) && <h2>{error}</h2>}
         {(loading || registerLoading) && <h2>loading...</h2>}
@@ -61,14 +61,14 @@ const Login = () => {
       </div>
 
       <form >
-        <div className="login-form">
+        <div className="login-form ">
           <label htmlFor="email">Email</label>
           <input
             type="email"
             id="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
-            required
+            required 
           />
         </div>
         <div className="login-form">
