@@ -15,8 +15,13 @@ server.use(require('json-server-auth'));  // This is the key for authentication 
 // Use the router to handle the API
 server.use(router);
 
-server.listen(5000, () => {
-  console.log('JSON Server is running on http://localhost:5000');
+// server.listen(5000, () => {
+//   console.log('JSON Server is running on http://localhost:5000');
+// });
+
+const PORT = process.env.PORT || 5000;
+server.listen(PORT, () => {
+  console.log(`JSON Server is running on port ${PORT}`);
 });
 
 /******* */

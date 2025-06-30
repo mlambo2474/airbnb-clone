@@ -1,9 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "server": "json-server --watch db.json --port 5000 -m ./node_modules/json-server-auth"
+        "start": "node server.js"
   },
   "keywords": [],
   "author": "",
