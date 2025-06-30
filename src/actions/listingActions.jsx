@@ -19,8 +19,8 @@ export const listListing = () => async (dispatch) => {
   try {
     dispatch({ type: LISTING_LIST_REQUEST });
     const [listingsResponse, bookingsResponse] = await Promise.all([
-      axios.get('http://localhost:5000/listings'),
-      axios.get('http://localhost:5000/bookings').catch(() => ({ data: [] })) // Fallback if no bookings endpoint
+      axios.get('https://airbnb-clone-fdwv.onrender.com/listings'),
+      axios.get('https://airbnb-clone-fdwv.onrender.com/bookings').catch(() => ({ data: [] })) // Fallback if no bookings endpoint
     ]);
     console.log('Fetched Listings:', listingsResponse.data);
     console.log('Fetched Bookings:', bookingsResponse.data);
