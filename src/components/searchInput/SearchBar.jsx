@@ -4,7 +4,9 @@ import LocationInput from "./LocationInput";
 import DatePicker from "./DatePicker";
 import GuestsSelector from "./GuestSelector";
 import { Search } from "@mui/icons-material";
-import { isListingAvailable } from "../../utils/availability";
+import { isListingAvailable } from "../../Utils/availability";
+// import Availability from "../../utils/Availability.jsx";
+
 import { setSearchResults } from "../../actions/listingActions";
 import { FiSearch } from "react-icons/fi";
 
