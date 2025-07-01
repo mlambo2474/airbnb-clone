@@ -4,7 +4,7 @@ import LocationInput from "./LocationInput";
 import DatePicker from "./DatePicker";
 import GuestsSelector from "./GuestSelector";
 import { Search } from "@mui/icons-material";
-import { isListingAvailable } from "../../Utils/availability";
+import { isListingAvailable } from "../../Utils/Availability";
 // import Availability from "../../utils/Availability.jsx";
 
 import { setSearchResults } from "../../actions/listingActions";
